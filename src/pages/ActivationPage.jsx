@@ -8,7 +8,7 @@ function ActivationPage() {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
   const toast = useToast();
-    const API_URL = "http://localhost:3000";
+    const API_URL = "https://urr-be.onrender.com";
 
   const activateAccount = async () => {
     try {
